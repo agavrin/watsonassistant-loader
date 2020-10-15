@@ -1,0 +1,4 @@
+utils/*_env
+!utils/en_dev_env.sample
+node_modules
+package-lock.json
