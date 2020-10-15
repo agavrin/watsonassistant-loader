@@ -1,0 +1,4 @@
+#instance
+ASSISTANT_APIKEY=egctkEbLAEB3bNJLoyAPxDWotdq4GOp4vPB0KjdvZHpf
+ASSISTANT_URL=https://api.eu-de.assistant.watson.cloud.ibm.com/instances/fd6883b2-443f-48f7-8e9d-e9635ab5f3e5/v2/assistants/1e54787c-8252-49a2-b744-961c2607cd1a/sessions
+SKILL_ID=395e278-5e97-4de4-b9eb-d795a2b3f91b

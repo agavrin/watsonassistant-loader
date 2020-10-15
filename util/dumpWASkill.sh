@@ -1,0 +1,1 @@
+curl -u "apikey":"mRwBp3gY0jTWNjCEf543dPF4oOMXEGnz5R56mOPHkFSlz"  "https://api.eu-de.assistant.watson.cloud.ibm.com/assistant/api/v1/workspaces/d353cd49-b4d2-470c-86dd-c532107f942c?version=2018-09-20&export=true" | json_pp > ../wa-config/skill-CoronaVirus-RUS-Skill.json
