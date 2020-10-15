@@ -1,0 +1,34 @@
+{
+	"welcomeNode": {
+		"title": "<h4>Hello!<br>I'm your virtual assistant.</h4>",
+		"description": "I can answer queries regarding coronavirus. Frequently asked questions:",
+		"response_type": "option",
+		"options": [
+			{
+				"label": "Will banks be open?",
+				"value": {
+					"input": {
+						"text": "Will banks be open?"
+					}
+				}
+			}
+		]
+	},
+	"anythingelseMessage": "Please rephrase your question. You can search for your answer as well on government pages.",
+	"systemSettings": {
+		"disambiguation": {
+      "prompt": "Please choose:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of above options"
+		},
+		"system_entities": {
+      "enabled": true
+		},
+    "human_agent_assist": {
+      "prompt": "Please choose:"
+    }
+	}
+}
